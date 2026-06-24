@@ -1,6 +1,6 @@
-# TaskFlow (Role-Based Task Manager / HRMS)
+# TaskFlow (Role-Based Task Manager)
 
-TaskFlow is a production-quality enterprise-grade Role-Based Task Management and Human Resource Management System (HRMS). It is built using the typed MERN stack (MongoDB, Express, React, Node.js, and TypeScript).
+TaskFlow is a production-quality enterprise-grade Role-Based Task Management. It is built using the typed MERN stack (MongoDB, Express, React, Node.js, and TypeScript).
 
 ## 🚀 Key Features
 

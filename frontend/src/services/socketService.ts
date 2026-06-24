@@ -3,8 +3,8 @@ import { io, Socket } from 'socket.io-client';
 class SocketService {
   private socket: Socket | null = null;
   private baseURL = import.meta.env.VITE_API_URL 
-    ? import.meta.env.VITE_API_URL.replace('/api', '') 
-    : 'http://localhost:5000';
+    ? import.meta.env.VITE_API_URL.replace('/api','') 
+    :'http://localhost:5000';
 
   connect(userId: string): Socket {
     if (this.socket?.connected) {
